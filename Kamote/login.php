@@ -31,7 +31,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             padding: 0;
             min-height: 80vh;
             font-family: Arial, sans-serif;
-            background-color:rgb(61, 47, 255);
+            background-color:rgba(0, 0, 0, 1);
             background-image: url(img/lakepandin.jpg) ;
             background-size: cover ;
         }

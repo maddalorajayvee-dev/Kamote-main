@@ -98,6 +98,7 @@ foreach ($payrolls as $payroll) {
         }
 
         .print-header h1 {
+            color: #0ea5e9; /* Sky blue color */
             color: #159488;
             font-size: 28px;
             margin-bottom: 10px;
@@ -358,7 +359,7 @@ foreach ($payrolls as $payroll) {
 
         <?php if (!empty($payrolls)): ?>
             <div class="summary-box">
-                <div class="section-title" style="border-bottom-color:rgb(97, 109, 218); color:rgb(97, 131, 226);">Summary</div>
+                <div class="section-title" style="border-bottom-color: #0ea5e9; color: #0ea5e9;">Summary</div>
                 <div class="summary-grid">
                     <div class="summary-item">
                         <div class="summary-item-label">Total Records</div>

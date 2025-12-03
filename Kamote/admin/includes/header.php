@@ -23,7 +23,7 @@ $admin = getCurrentAdmin();
                         <span class="mr-2"> </span> Payroll
                     </a>
                     <a href="<?php echo base_url('admin/statement-of-account.php'); ?>" class="<?php echo $current_page === 'statement-of-account.php' || $current_page === 'statement-print.php' ? 'border-primary-500 text-gray-900' : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700'; ?> inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
-                        <span class="mr-2"> </span> Statement
+                        <span class="mr-2"> </span> SOA
                     </a>
                     <a href="<?php echo base_url('admin/payroll-archive.php'); ?>" class="<?php echo $current_page === 'payroll-archive.php' ? 'border-primary-500 text-gray-900' : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700'; ?> inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
                         <span class="mr-2"> </span> Archive

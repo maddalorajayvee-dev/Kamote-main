@@ -169,7 +169,7 @@ function getStatusBadge($status) {
                         </button>
                         <?php if ($employee_id): ?>
                             <a href="<?php echo base_url('admin/statement-print.php?employee_id=' . $employee_id . '&date_from=' . $date_from . '&date_to=' . $date_to); ?>" target="_blank" class="px-6 py-2 bg-sky-500 hover:bg-sky-600 text-white rounded-lg transition">
-                                🖨️ Print Statement
+                                 Print Statement
                             </a>
                         <?php endif; ?>
                     </div>
@@ -179,7 +179,7 @@ function getStatusBadge($status) {
             <?php if ($employee && !empty($payrolls)): ?>
                 <div class="glass-card tilt-hover p-6">
                     <div class="mb-6">
-                        <h2 class="text-2xl font-bold text-gray-900 mb-2">
+                        <h2 class="text-2xl font-bold text-sky-600 mb-2">
                             <?php echo htmlspecialchars($employee['first_name'] . ' ' . ($employee['middle_name'] ? $employee['middle_name'] . ' ' : '') . $employee['last_name']); ?>
                         </h2>
                         <p class="text-gray-600">

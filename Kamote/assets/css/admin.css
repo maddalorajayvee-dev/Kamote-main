@@ -3,7 +3,7 @@
     --admin-card: rgba(255, 255, 255, 0.94);
     --admin-border: rgba(224, 201, 130, 0.4);
     --admin-shadow: 0 12px 40px rgba(12, 77, 82, 0.12);
-    --accent-teal: #1fb9aa;
+    --accent-teal: #87CEEB;
     --accent-yellow: #ffd36b;
 }
 
@@ -83,15 +83,15 @@
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    background: rgba(31, 185, 170, 0.12);
-    color: #0e5b58;
+    background: rgba(135, 206, 235, 0.25);
+    color: #0e5b7a;
     animation: float 4s ease-in-out infinite;
 }
 
 .floating-icons span:nth-child(2) {
     animation-delay: 0.6s;
-    background: rgba(255, 211, 107, 0.25);
-    color: #a46e00;
+    background: rgba(107, 200, 255, 0.25);
+    color: #1a6ea4;
 }
 
 .floating-icons span:nth-child(3) {
@@ -115,7 +115,7 @@
     height: 42px;
     border-radius: 999px;
     background: rgba(255, 211, 107, 0.2);
-    color: #a46e00;
+    color: #1a6ea4;
     font-weight: 700;
     display: inline-flex;
     align-items: center;

@@ -352,7 +352,7 @@ $period_display = $month . ' ' . $start_day . '-' . $end_day . ', ' . $year;
 <body>
     <div class="print-container">
         <div class="print-actions">
-            <button onclick="window.print()" class="btn btn-print">🖨️ Print</button>
+            <button onclick="window.print()" class="btn btn-print"> Print</button>
             <a href="<?php echo base_url('admin/payroll.php'); ?>" class="btn btn-back">← Back to Payroll</a>
         </div>
 

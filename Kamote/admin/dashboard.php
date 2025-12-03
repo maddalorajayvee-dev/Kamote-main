@@ -28,16 +28,16 @@ $admin = getCurrentAdmin();
                 extend: {
                     colors: {
                         primary: {
-                            50: '#f0fffc',
-                            100: '#cafdf3',
-                            200: '#a1f4e5',
-                            300: '#78e4d5',
-                            400: '#4fc9c0',
-                            500: '#34b9b0',
-                            600: '#1fb9aa',
-                            700: '#159488',
-                            800: '#0f6f65',
-                            900: '#0b4d47',
+                            50: '#f0f9ff',
+                            100: '#e0f2fe',
+                            200: '#bae6fd',
+                            300: '#7dd3fc',
+                            400: '#38bdf8',
+                            500: '#0ea5e9',
+                            600: '#0284c7',
+                            700: '#0369a1',
+                            800: '#075985',
+                            900: '#0c4a6e',
                         },
                     },
                 },
@@ -61,8 +61,8 @@ $admin = getCurrentAdmin();
                 <a href="<?php echo base_url('admin/employees.php'); ?>" class="glass-card tilt-hover overflow-hidden transition">
                     <div class="p-5">
                         <div class="flex items-center">
-                            <div class="bg-white-500 rounded-md p-3">
-                                <span class="text-2xl"><svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#000000"><path d="M222-255q63-44 125-67.5T480-346q71 0 133.5 23.5T739-255q44-54 62.5-109T820-480q0-145-97.5-242.5T480-820q-145 0-242.5 97.5T140-480q0 61 19 116t63 109Zm257.81-195q-57.81 0-97.31-39.69-39.5-39.68-39.5-97.5 0-57.81 39.69-97.31 39.68-39.5 97.5-39.5 57.81 0 97.31 39.69 39.5 39.68 39.5 97.5 0 57.81-39.69 97.31-39.68 39.5-97.5 39.5Zm.66 370Q398-80 325-111.5t-127.5-86q-54.5-54.5-86-127.27Q80-397.53 80-480.27 80-563 111.5-635.5q31.5-72.5 86-127t127.27-86q72.76-31.5 155.5-31.5 82.73 0 155.23 31.5 72.5 31.5 127 86t86 127.03q31.5 72.53 31.5 155T848.5-325q-31.5 73-86 127.5t-127.03 86Q562.94-80 480.47-80Zm-.47-60q55 0 107.5-16T691-212q-51-36-104-55t-107-19q-54 0-107 19t-104 55q51 40 103.5 56T480-140Zm0-370q34 0 55.5-21.5T557-587q0-34-21.5-55.5T480-664q-34 0-55.5 21.5T403-587q0 34 21.5 55.5T480-510Zm0-77Zm0 374Z"/></svg></span>
+                            <div class="bg-sky-100 rounded-md p-3">
+                                <span class="text-2xl"><svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#0ea5e9"><path d="M180-217q60-56 135.9-90.5 75.89-34.5 164-34.5 88.1 0 164.1 34.5T780-217v-563H180v563Zm302-204q58 0 98-40t40-98q0-58-40-98t-98-40q-58 0-98 40t-40 98q0 58 40 98t98 40ZM180-120q-24 0-42-18t-18-42v-600q0-24 18-42t42-18h600q24 0 42 18t18 42v600q0 24-18 42t-42 18H180Zm43-60h513q-62-53-125.5-77.5T480-282q-67 0-130.5 24.5T223-180Zm259-301q-32.5 0-55.25-22.75T404-559q0-32.5 22.75-55.25T482-637q32.5 0 55.25 22.75T560-559q0 32.5-22.75 55.25T482-481Zm-2-18Z"/></svg></span>
                             </div>
                             <div class="ml-5 w-0 flex-1">
                                 <dl>
@@ -77,8 +77,8 @@ $admin = getCurrentAdmin();
                 <a href="<?php echo base_url('admin/employees.php'); ?>" class="glass-card tilt-hover overflow-hidden transition">
                     <div class="p-5">
                         <div class="flex items-center">
-                            <div class="bg-white-500 rounded-md p-3">
-                                <span class="text-2xl"><svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#1f1f1f"><path d="m421-298 283-283-46-45-237 237-120-120-45 45 165 166Zm59 218q-82 0-155-31.5t-127.5-86Q143-252 111.5-325T80-480q0-83 31.5-156t86-127Q252-817 325-848.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 82-31.5 155T763-197.5q-54 54.5-127 86T480-80Zm0-60q142 0 241-99.5T820-480q0-142-99-241t-241-99q-141 0-240.5 99T140-480q0 141 99.5 240.5T480-140Zm0-340Z"/></svg></span>
+                            <div class="bg-sky-100 rounded-md p-3">
+                                <span class="text-2xl"><svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#0ea5e9"><path d="M702-494 575-622l42-42 85 85 170-170 42 43-212 212Zm-342 13q-66 0-108-42t-42-108q0-66 42-108t108-42q66 0 108 42t42 108q0 66-42 108t-108 42ZM40-160v-94q0-35 17.5-63.5T108-360q75-33 133.34-46.5t118.5-13.5Q420-420 478-406.5T611-360q33 15 51 43t18 63v94H40Zm60-60h520v-34q0-16-9-30.5T587-306q-71-33-120-43.5T360-360q-58 0-107.5 10.5T132-306q-15 7-23.5 21.5T100-254v34Zm260-321q39 0 64.5-25.5T450-631q0-39-25.5-64.5T360-721q-39 0-64.5 25.5T270-631q0 39 25.5 64.5T360-541Zm0 251Zm0-341Z"/></svg></span>
                             </div>
                             <div class="ml-5 w-0 flex-1">
                                 <dl>
@@ -93,8 +93,8 @@ $admin = getCurrentAdmin();
                 <a href="<?php echo base_url('admin/payroll.php'); ?>" class="glass-card tilt-hover overflow-hidden transition">
                     <div class="p-5">
                         <div class="flex items-center">
-                            <div class="bg-white-500 rounded-md p-3">
-                                <span class="text-2xl"><svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#1f1f1f"><path d="M226-44 80-190l146-145 42 42-73 73h569l-72-73 43-42 145 145.5L734-44l-42-42 74-74H195l73 74-42 42Zm253.76-486Q438-530 409-559.24q-29-29.23-29-71Q380-672 409.24-701q29.23-29 71-29Q522-730 551-700.76q29 29.23 29 71Q580-588 550.76-559q-29.23 29-71 29ZM180-380q-24.75 0-42.37-17.63Q120-415.25 120-440v-380q0-24.75 17.63-42.38Q155.25-880 180-880h600q24.75 0 42.38 17.62Q840-844.75 840-820v380q0 24.75-17.62 42.37Q804.75-380 780-380H180Zm100-60h400q0-42 29-71t71-29v-180q-42 0-71-29t-29-71H280q0 42-29 71t-71 29v180q42 0 71 29t29 71Zm-100 0v-380 380Z"/></svg></span>
+                            <div class="bg-sky-100 rounded-md p-3">
+                                <span class="text-2xl"><svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#0ea5e9"><path d="M180-233v53-600 547Zm0 113q-24.75 0-42.37-17.63Q120-155.25 120-180v-600q0-24.75 17.63-42.38Q155.25-840 180-840h600q24.75 0 42.38 17.62Q840-804.75 840-780v134h-60v-134H180v600h600v-133h60v133q0 24.75-17.62 42.37Q804.75-120 780-120H180Zm358-173q-30.52 0-52.26-21.44Q464-335.89 464-366v-227q0-30.11 21.74-51.56Q507.48-666 538-666h270q30.53 0 52.26 21.44Q882-623.11 882-593v227q0 30.11-21.74 51.56Q838.53-293 808-293H538Zm284-60v-253H524v253h298Zm-169.76-63q26.76 0 45.26-18.96Q716-453.92 716-481q0-26.25-19-44.63Q678-544 652-544t-45 18.37q-19 18.38-19 44.63 0 27.08 18.74 46.04Q625.47-416 652.24-416Z"/></svg></span>
                             </div>
                             <div class="ml-5 w-0 flex-1">
                                 <dl>
@@ -109,8 +109,8 @@ $admin = getCurrentAdmin();
                 <a href="<?php echo base_url('admin/payroll.php'); ?>" class="glass-card tilt-hover overflow-hidden transition">
                     <div class="p-5">
                         <div class="flex items-center">
-                            <div class="bg-white-500 rounded-md p-3">
-                                <span class="text-2xl"><svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#000000"><path d="M480-522q72 0 122-50t50-122v-126H308v126q0 72 50 122t122 50ZM160-80v-60h88v-127q0-71 40-129t106-84q-66-27-106-85t-40-129v-126h-88v-60h640v60h-88v126q0 71-40 129t-106 85q66 26 106 84t40 129v127h88v60H160Z"/></svg></span>
+                            <div class="bg-sky-100 rounded-md p-3">
+                                <span class="text-2xl"><svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#0ea5e9"><path d="M691-80q-78.43 0-133.72-55.28Q502-190.57 502-269t55.28-133.72Q612.57-458 691-458t133.72 55.28Q880-347.43 880-269t-55.28 133.72Q769.43-80 691-80Zm58.24-88L777-196l-75-75v-112h-39v126l86.24 89ZM180-120q-24.75 0-42.37-17.63Q120-155.25 120-180v-600q0-26 17-43t43-17h202q7-35 34.5-57.5T480-920q36 0 63.5 22.5T578-840h202q26 0 43 17t17 43v308q-15-9-29.52-15.48Q795.97-493.96 780-499v-281h-60v90H240v-90h-60v600h280q5 15 12 29.5t17 30.5H180Zm300-660q17 0 28.5-11.5T520-820q0-17-11.5-28.5T480-860q-17 0-28.5 11.5T440-820q0 17 11.5 28.5T480-780Z"/></svg></span>
                             </div>
                             <div class="ml-5 w-0 flex-1">
                                 <dl>
@@ -124,13 +124,13 @@ $admin = getCurrentAdmin();
             </div>
 
             <div class="grid grid-cols-1 gap-6 lg:grid-cols-2 mb-8">
-                <div class="glass-card tilt-hover p-6">
+                <div class="glass-card tilt-hover p-6 border border-sky-100 hover:border-sky-200 transition-colors">
                     <div class="flex items-center justify-between mb-4">
                         <div>
                             <h2 class="text-lg font-semibold text-gray-900">Barangay Payroll Briefing</h2>
                             <p class="text-sm text-gray-500">Snapshot of frontline programs</p>
                         </div>
-                        <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-blue-100 text-blue-700">
+                        <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-sky-100 text-sky-700">
                             Community Fund
                         </span>
                     </div>
@@ -148,7 +148,7 @@ $admin = getCurrentAdmin();
                         </ul>
                     </div>
                 </div>
-                <div class="glass-card tilt-hover p-6">
+                <div class="glass-card tilt-hover p-6 border border-sky-100 hover:border-sky-200 transition-colors">
                     <h2 class="text-lg font-semibold text-gray-900 mb-4">Disbursement Timeline</h2>
                     <div class="space-y-4">
                         <div class="timeline-step">
@@ -177,19 +177,19 @@ $admin = getCurrentAdmin();
             </div>
 
             <div class="grid grid-cols-1 gap-6 lg:grid-cols-2">
-                <div class="glass-card tilt-hover p-6">
+                <div class="glass-card tilt-hover p-6 border border-sky-100 hover:border-sky-200 transition-colors">
                     <h2 class="text-lg font-semibold text-gray-900 mb-4">Quick Actions</h2>
                     <div class="space-y-3">
-                        <a href="<?php echo base_url('admin/employees.php?action=new'); ?>" class="block w-full bg-sky-500 hover:bg-sky-600 text-white text-center py-2 px-4 rounded-lg transition">
+                        <a href="<?php echo base_url('admin/employees.php?action=new'); ?>" class="block w-full bg-sky-500 hover:bg-sky-600 text-white text-center py-2 px-4 rounded-lg transition shadow-md hover:shadow-lg">
                             Add New Employee
                         </a>
-                        <a href="<?php echo base_url('admin/payroll.php?action=new'); ?>" class="block w-full bg-green-600 hover:bg-green-700 text-white text-center py-2 px-4 rounded-lg transition">
+                        <a href="<?php echo base_url('admin/payroll.php?action=new'); ?>" class="block w-full bg-sky-400 hover:bg-sky-500 text-white text-center py-2 px-4 rounded-lg transition shadow-md hover:shadow-lg">
                             Create Payroll
                         </a>
                     </div>
                 </div>
 
-                <div class="glass-card tilt-hover p-6">
+                <div class="glass-card tilt-hover p-6 border border-sky-100 hover:border-sky-200 transition-colors">
                     <h2 class="text-lg font-semibold text-gray-900 mb-4">System Information</h2>
                     <div class="space-y-2 text-sm text-gray-600">
                         <p>Barangay Sto. Angel Payroll Management System</p>

@@ -116,7 +116,7 @@ if ($employee) {
                 <a href="<?php echo base_url('admin/employees.php'); ?>" class="text-sky-500 hover:text-sky-700 text-sm font-medium mb-4 inline-flex items-center gap-2">
                     ← Back to Employees
                 </a>
-                <span class="text-xs uppercase tracking-[0.3em] text-gray-400">HR MODULE</span>
+                <span class="text-xs uppercase tracking-[0.3em] text-gray-400"></span>
             </div>
             <h1 class="text-3xl font-bold text-gray-900 mb-4"><?php echo $action === 'edit' ? 'Edit' : 'Add New'; ?> Employee</h1>
 
